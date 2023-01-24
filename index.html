@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boby und schi Fahren</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .Navbar {
+            display: flex;
+            top: 0;
+            left: 0;
+            right: 0;
+            justify-content: space-between;
+            background-color: black;
+            align-items: center;
+        }
+
+        button {
+            width: 50px;
+            height: 30px;
+            border: 1px black;
+            border-radius: 10px;
+            background-color: darkgrey;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: grey;    
+        }
+
+        .Title {
+            color: white;
+            font-family: Arial;
+            font-weight: 500;
+            font-size: 30px;
+        }   
+
+        .main {
+            background-image: url('Mountains.png');
+            display: flex;
+            height: 500px;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .emptyspace {
+            height: 100px;
+            display: block;
+        }
+
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        .Ingo {
+            color: green;
+            border: 1px solid black;
+            font-size: 20px;
+            margin: 0;
+            border-collapse: collapse;
+        }
+
+        .Price {
+            color: black;
+            font-size: 18px;
+            border: 1px solid black;
+            margin: 0;
+            border-collapse: collapse;
+        }
+         </style>
+</head>
+<body>
+    <nav class="Navbar">
+        <p class="Title" style="margin-left: 30px;">Die Bob- und Ski Genies</p>
+        <a href="info.html"><button style="margin-right: 30px;">Info</button></a>
+
+        </nav>
+    <main>
+        <div class="main">
+            <p class="Title" style=" color: black !important">Griaß Eich!</p> 
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    
+    <div style="display: flex; flex-direction: column; align-items: center;">
+        <p class="Title" style="color: black;">Standort</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+
+        <div class="mapouter"><div class="gmap_canvas"><iframe width="825" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=47%C2%B012'51.3%22N%2015%C2%B023'38.5%22E&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:825px;}</style><a href="https://www.embedgooglemap.net">using google maps on website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:825px;}</style></div></div>
+    </div>
+
+    <div style="display: flex; flex-direction: column; align-items: center;">
+        <p class="Title" style="color: black;">Preise</p>
+        <table>
+            <tr>
+                <td></td>
+                <td class="Ingo">Ein Kind</td>
+                <td class="Ingo">Ein Erwachsener</td>
+            </tr>
+            <tr>
+                <td class="Ingo">1 Minute</td>
+                <td class="Price">100€</td>
+                <td class="Price">1000€</td>
+            </tr>
+            <tr>
+                <td class="Ingo">10 Minuten</td>
+                <td class="Price">10000€</td>
+                <td class="Price">1000000€</td>
+            </tr>
+        </table>
+    </div>
+    </main>
+</body>
+</html>
