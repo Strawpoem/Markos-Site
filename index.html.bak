@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Die Bob- und Skigenies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="Navbar">
+        <p class="Title" style="margin-left: 30px;">Die Bob- und Ski Genies</p>
+<div>       
+		<a href="info.html"><button class="button" style="margin-top: 20px;">Info</button></a>
+        <a href="Verkauf.html"><button style="width: 120px;">Bobs zum Verkauf!</button></a>
+</div>
+
+        </nav>
+    <main>
+        <div class="main" id="Start">
+            <p class="Title" style=" color: black !important">Griaß Eich!</p> 
+            <p>Winter des feinsten!</p>
+			<p>Wir freuen uns auf Ihr kommen!</p>
+        </div>
+    
+    <div style="display: flex; flex-direction: column; align-items: center;">
+        <p class="Title" style="color: black;">Standort</p>
+        <p></p>
+
+        <div class="mapouter"><div class="gmap_canvas"><iframe class="mapsin" width="825" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=47%C2%B012'51.3%22N%2015%C2%B023'38.5%22E&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:825px;}</style><a href="https://www.embedgooglemap.net">using google maps on website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:825px;}</style></div></div>
+    </div>
+
+    <div style="display: flex; flex-direction: column; align-items: center;">
+        <p class="Title" style="color: black;">Eintritt für alle Kostenlos</p>
+    </div>
+
+    
+    <div style="display: flex; flex-direction: column; align-items: center;">
+        <p class="Title" style="color: black; margin: 0;">Öffnungszeiten</p>
+        <p style="margin: 0;">Samstag | Sonntag</p>
+        <p style="margin: 0;">(Nur bei genügend Schneefall)</p>
+    </div>
+    </main>
+    <footer class="footer">
+        <a href="#Start"><button style="width: 200px; margin-left: 10px;">Zurück nach oben</button></a>
+        <div>
+            <a href="info.html"><button>Info</button></a>
+            <a href="about.html"><button style="margin-right: 10px;">Über</button></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
